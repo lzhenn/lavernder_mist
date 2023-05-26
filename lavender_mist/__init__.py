@@ -58,7 +58,7 @@ def copy_cfg(dest_path):
             f"Configuration file '{resource_path}' not found in package '{package_name}'.")
     shutil.copy2(src_path, dest_path)
 
-def waterfall():
+def waterfall(show_case=''):
     '''
     Waterfall rundown!
     '''
@@ -73,4 +73,4 @@ def waterfall():
     
     
     utils.write_log('Post 3D rendering...')
-    painter.render3d(cfg)
+    painter.render3d(cfg, show_case)

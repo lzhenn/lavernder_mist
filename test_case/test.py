@@ -2,7 +2,7 @@
 import os
 from lavender_mist import waterfall, copy_cfg
 
-copy_cfg('config.case.ini')
+#copy_cfg('config.case.ini')
 
-waterfall()
+waterfall('voc+no2')
 

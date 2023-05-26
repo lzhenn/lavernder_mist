@@ -2,6 +2,7 @@
 *.log
 build
 *.egg-info
+*.mp4
 dist
 sandbox
 test_case/fig
